@@ -1,4 +1,4 @@
-# Uber Data Analytics | Modern Data Engineering GCP Project
+# Uber Data Analytics 🚕 | Modern Data Engineering GCP Project 📈
 
 ![00](https://github.com/themihirmathur/Uber-Data-Analytics/assets/92594107/5014bc9d-4477-4a5e-ab94-4f320f86f44c)
 
