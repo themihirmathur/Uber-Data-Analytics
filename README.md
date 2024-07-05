@@ -57,11 +57,15 @@ The dataset used for this project is the TLC Trip Record Data, which includes ye
 - **Payment types**: Methods of payment used for the trip, such as credit card, cash, or no charge.
 - **Driver-reported passenger counts**: Number of passengers reported by the driver for each trip.
 
-**Dataset Source**: [Uber Data CSV](https://github.com/darshilparmar/uber-etl-pipeline-data-engineering-project/blob/main/data/uber_data.csv)
+**Dataset Source**: [Uber Data CSV](https://github.com/themihirmathur/Uber-Data-Analytics/tree/main/data)
 
 **More Information**:
 - **Website**: [TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 - **Data Dictionary**: [TLC Data Dictionary](https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf)
+
+<p align="left">
+  <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" 
+</p>
 
 ## Data Model
 
@@ -107,6 +111,10 @@ The results of the data analysis are visualized using Looker Studio, providing i
 
 ![Screenshot 2024-07-05 at 8 38 51 PM](https://github.com/themihirmathur/Uber-Data-Analytics/assets/92594107/def82c0c-9e26-420e-87b9-682d280562ac)
 ![Screenshot 2024-07-05 at 8 37 37 PM](https://github.com/themihirmathur/Uber-Data-Analytics/assets/92594107/117a5e15-34c8-4c20-aa0f-4db35dbd0ac5)
+
+<p align="left">
+  <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" 
+</p>
 
 ## Conclusion
 
