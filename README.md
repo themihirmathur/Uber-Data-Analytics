@@ -18,10 +18,12 @@ The architecture for this project follows a robust and scalable design:
 2. **Data Processing**:
    - **Compute Instance**: Python scripts running on GCP Compute Instances to clean and preprocess the data. Compute Instances offer flexible, scalable virtual machine resources for various workloads.
    - **Mage Data Pipeline Tool**: Used to automate the ETL processes and manage data workflows. Mage simplifies building, running, and monitoring data pipelines.
-   
+
 3. **Data Warehousing**:
    - **BigQuery**: Processed data is stored in BigQuery for efficient querying and analysis. BigQuery is a fully-managed, serverless data warehouse that enables super-fast SQL queries using the processing power of Google's infrastructure.
-   
+
+![Screenshot 2024-07-28 at 2 09 09 AM](https://github.com/user-attachments/assets/c1a0259e-b4e6-493c-a626-9b24d2b642ee)
+
 4. **Data Visualization**:
    - **Looker Studio**: Dashboards and reports are created in Looker Studio to visualize the insights from the data analysis. Looker Studio allows creating interactive, sharable reports and dashboards with Google Analytics data.
 
@@ -83,6 +85,8 @@ The data model for this project is designed to support efficient querying and an
 
 ## ETL Process
 
+![Screenshot 2024-07-28 at 1 17 42 AM](https://github.com/user-attachments/assets/f48bb7a5-b21d-4309-b49c-437eb12cb02f)
+
 1. **Extraction**: Raw trip data is extracted from the source and loaded into GCP Storage. This ensures the data is durably stored and easily accessible for further processing.
 2. **Transformation**: Data cleaning and preprocessing are performed using Python scripts running on GCP Compute Instances. The Mage Data Pipeline Tool is used to orchestrate and manage these processes. Transformations include data normalization, filtering out erroneous entries, and enriching the data with additional context.
 3. **Loading**: The cleaned and transformed data is loaded into BigQuery for storage and querying. BigQuery's powerful SQL engine allows for fast and efficient analysis of the data.
@@ -109,8 +113,11 @@ The analysis focuses on uncovering insights such as:
 
 The results of the data analysis are visualized using Looker Studio, providing interactive dashboards and reports that stakeholders can use to gain actionable insights. These visualizations help in understanding patterns and trends in the data, making it easier to make data-driven decisions.
 
-![Screenshot 2024-07-05 at 8 38 51 PM](https://github.com/themihirmathur/Uber-Data-Analytics/assets/92594107/def82c0c-9e26-420e-87b9-682d280562ac)
-![Screenshot 2024-07-05 at 8 37 37 PM](https://github.com/themihirmathur/Uber-Data-Analytics/assets/92594107/117a5e15-34c8-4c20-aa0f-4db35dbd0ac5)
+[Uber_Data_Analytics_by_Mihir.pdf](https://github.com/user-attachments/files/16401664/Uber_Data_Analytics_by_Mihir.pdf)
+
+![Screenshot 2024-07-28 at 4 26 02 AM](https://github.com/user-attachments/assets/68379c6b-70c3-4332-9821-7beaa38d05a9)
+![Screenshot 2024-07-28 at 4 26 22 AM](https://github.com/user-attachments/assets/26ffd121-c4b7-439f-8ef9-2b155038d1b4)
+![Screenshot 2024-07-28 at 4 26 37 AM](https://github.com/user-attachments/assets/2eb00bcb-1d1b-48a9-ace3-ca84fa1e2f2e)
 
 <p align="left">
   <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" 
