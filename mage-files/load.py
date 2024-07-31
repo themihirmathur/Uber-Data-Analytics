@@ -22,7 +22,7 @@ def export_data_to_big_query(data, **kwargs) -> None:
     config_profile = 'default'
 
     for key, value in data.items():
-        table_id = 'data-with-darshil.uber_data_engineering_yt.{}'.format(key)
+        table_id = 'data-with-themihirmathur.uber_data_engineering_by_mihir.{}'.format(key)
         BigQuery.with_config(ConfigFileLoader(config_path, config_profile)).export(
             DataFrame(value),
             table_id,
